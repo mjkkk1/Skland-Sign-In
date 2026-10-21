@@ -27,7 +27,7 @@ users:
 
   - nickname: "mjkkkk"
     token: "bmfkG2rHW98Ak0vIHQqX9xKy"
-    game_type: 0
+    game_type: 1
 
 # ======================== 消息推送配置 (Notification Settings) ========================
 # 填写相应渠道的参数即可启用对应推送服务。不需要使用的渠道请保持对应参数为空 ("")。
