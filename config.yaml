@@ -21,13 +21,13 @@ cron: "0 1 * * *"
 # game_type: 0表示都签(默认)，1表示只签明日方舟，2表示只签终末地
 
 users:
-  - nickname: "我的大号"
-    token: "这里填入教程中获取的Token"
+  - nickname: "mjkkk"
+    token: "qFXC0K410wzPmD1U2rdulYcv"
     game_type: 0
 
-#  - nickname: "我的小号"
-#    token: "这里填入另一个Token"
-#    game_type: 0
+  - nickname: "majikko"
+    token: "bmfkG2rHW98Ak0vIHQqX9xKy"
+    game_type: 0
 
 # ======================== 消息推送配置 (Notification Settings) ========================
 # 填写相应渠道的参数即可启用对应推送服务。不需要使用的渠道请保持对应参数为空 ("")。
@@ -59,19 +59,19 @@ notify:
   # ---------- 邮件推送 (SMTP) ----------
   email:
     # SMTP 服务器地址，例如: "smtp.qq.com"
-    smtp_host: ""
+    smtp_host: "smtp.qq.com"
     # SMTP 服务器端口，SSL 协议一般为 465，STARTTLS 协议一般为 587
     smtp_port: 465
     # 是否启用 SSL 加密连接
     use_ssl: true
     # 邮箱账号 (通常为完整的邮箱地址)
-    username: ""
+    username: "majikko@qq.com"
     # 邮箱登录密码或第三方客户端授权码
-    password: ""
+    password: "GUO354856194"
     # 发件人地址 (如保持为空，则默认使用 username 作为发件人)
     sender: ""
     # 接收通知的目标邮箱地址
-    receiver: ""
+    receiver: "majikko@qq.com"
 
   # ---------- 企业微信群机器人 ----------
   wecom:
