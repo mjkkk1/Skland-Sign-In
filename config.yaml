@@ -67,7 +67,7 @@ notify:
     # 邮箱账号 (通常为完整的邮箱地址)
     username: "majikko@qq.com"
     # 邮箱登录密码或第三方客户端授权码
-    password: "GUO354856194"
+    password: "ggedhiurfyfabgej"
     # 发件人地址 (如保持为空，则默认使用 username 作为发件人)
     sender: ""
     # 接收通知的目标邮箱地址
