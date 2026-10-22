@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # GitHub Actions cron uses UTC. This is 01:00 in Asia/Shanghai.
-    - cron: "0 17 * * *"
+    - cron: "25 20 * * *"
 
 permissions:
   contents: read
@@ -73,5 +73,3 @@ jobs:
       actions: write
     steps:
       - uses: liskin/gh-workflow-keepalive@v1
-      - name: Run sign-in
-        run: python main.py
